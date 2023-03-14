@@ -1,0 +1,47 @@
+#Ignore all .bin files
+*.bin
+
+#Ignore all .lock files
+*.lock
+
+#Ignore all .jar files
+*.jar
+
+build/libs
+
+build/libs/*.jar
+
+#Ignore all build reports
+build/reports
+
+#Ignore all libs
+build/libs
+
+#Ignore all build/test-results
+build/test-results
+
+#Ignore all build/classes
+build/classes
+
+#Ignore all gradle files
+.gradle
+
+#Ignore .idea files
+.idea
+
+**/build/
+!src/**/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+#Ignore DataSet files in tests
+src/test/java/tests/*.DataSet
+src/test/java/Experiments/Results/*.csv
+*.PO

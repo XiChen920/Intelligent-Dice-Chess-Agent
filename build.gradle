@@ -1,0 +1,34 @@
+plugins {
+    id 'java'
+    id 'org.openjfx.javafxplugin' version '0.0.10'
+    id 'application'
+}
+
+application{
+    mainClass = 'App'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    implementation 'org.deeplearning4j:deeplearning4j-core:1.0.0-beta6'
+    implementation 'org.nd4j:nd4j-native-platform:1.0.0-beta6'
+    implementation 'com.opencsv:opencsv:4.5'
+
+}
+
+test {
+    useJUnitPlatform()
+}
+
+javafx {
+    version = "17"
+    modules = [ 'javafx.controls' ]
+}

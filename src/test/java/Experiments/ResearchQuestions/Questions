@@ -1,0 +1,12 @@
+1) Do  our  methods  outperform  a  regular  baseline  agent?
+    EMMABPSI 1 thread & MCTS vs baseline @ multiple turn times
+2) Which  AI  performs  the  best?
+    EMMABPSI 1 thread vs MCTS @ multiple turn times
+3) What  is  the  AIs’  performance  difference(s)  compared  to their  performance  in  regular  chess?
+    (EMMABPSI 1 thread & MCTS vs baseline @ multiple turn times) & (EMMABPSI 1 thread vs MCTS @ multiple turn times) on standard chess
+
+Data types:
+    win rate
+    turns to loose
+    turns to win
+    turn time

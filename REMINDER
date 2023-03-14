@@ -1,0 +1,18 @@
+For resume/load/save: store a game as a sequence of moves
+
+expecty max or expexty min max as plan b
+avoid dynamic scripting
+multi difficulty ai level
+
+Remarks Kyle (peer review)
+Reset is partialy boken (not resat what player has a turn), advice implment an undu
+not click and drag, but select out of legal moves (highlight) (examiners)
+Automate roll dice
+bad color sceme
+rulles in game
+Illegal move action
+
+move preview
+Custumizability ?? (colorsceme, move selection)
+
+Presentation: more explaination of rules?
